@@ -1,9 +1,15 @@
 import React from 'react'
+import logo from '../../assets/Logo .svg'
+
+import './navbar.css';
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
+    <nav className='app__navbar'>
+      <div className='app__navbar-logo'>
+        <img src={logo} alt='logo'/>
+      </div>
+      <ul className='app__navbar-links'>
         <li>
           <a href='/'>Home</a>
         </li>
