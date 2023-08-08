@@ -2,6 +2,7 @@ import React from 'react'
 
 
 
+
 import salad from '../../assets/greek salad.jpg';
 import './Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
