@@ -1,0 +1,10 @@
+.testi {
+    background: #ac4848;
+    min-height: 200px ;
+
+    padding: 8rem 10rem;
+}
+
+.testi__head h2 {
+    color: #fff;
+}

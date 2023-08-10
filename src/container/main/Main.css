@@ -43,7 +43,7 @@
 .meal-card {
     grid-column: auto;
     grid-row: 2;
-    min-height: 31.25rem;
+    min-height: 30.25rem;
     padding-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -94,3 +94,14 @@
     /* padding-left: 12rem; */
     /* margin-top: -100px; */
   }
+
+.footer-btn a {
+    text-decoration: none;
+    color: #495E57;
+}
+
+.footer-btn {
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    max-width: 180px;
+}

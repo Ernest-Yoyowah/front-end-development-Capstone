@@ -2,7 +2,11 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div>Testimonial</div>
+    <div className='testi'>
+        <div className='testi__head'>
+            <h2>Testimonial</h2>
+        </div>
+    </div>
   )
 }
 
