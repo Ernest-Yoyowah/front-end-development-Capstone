@@ -1,5 +1,6 @@
 .main-section {
     padding: 8rem 10rem;
+    max-height: 500px;
 }
 
 .main-top {
@@ -44,7 +45,7 @@
     grid-column: auto;
     grid-row: 2;
     min-height: 30.25rem;
-    padding-bottom: 2.5rem;
+    /* padding-bottom: 2.5rem; */
     display: flex;
     flex-direction: column;
     border-radius: 1rem;

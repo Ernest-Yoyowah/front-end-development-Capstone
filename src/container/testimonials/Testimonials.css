@@ -1,13 +1,43 @@
 .test-section {
     background: #495E57;
-    min-height: 200px;
+    min-height: 500px;
 }
 
-.main-section h2 {
-    width: 255px;
-    height: 46px;
-    background: white;
-    font-size: 38px;
+.test-top h2 {
+    color: #fff;
+    padding: 0rem 10rem;
+    font-weight: 10;
+    font-size: 53px;
     font-family: 'Markazi Text', sans-serif;
     margin: 0 0 0;
 }
+.hold-test {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.test-card {
+    width: 200px;
+    height: 340px;
+    margin-top: 15px;
+    background: #fff;
+    padding: 16px;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.test-card h4{
+    width: 60%;
+    margin: 0 auto 1rem auto;
+}
+
+.test-card span {
+ color: #F4CE14;
+}
+
+.test-card-img img {
+    width: 8rem;
+    margin: 0 auto 0.5rem auto;
+    border-radius: 50%;
+    margin-left: 2.6rem;
+  }
