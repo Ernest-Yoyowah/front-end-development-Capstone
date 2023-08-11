@@ -1,0 +1,34 @@
+.about-section {
+    padding: 3rem 10rem;
+    display: flex;
+}
+.about-section h1{
+    width: 455px;
+    height: 60px;
+    color: #F4CE14;
+    font-size: 60px;
+    font-family: 'Markazi Text';
+    margin: 0 0 0;
+    font-weight: 20;
+    padding:  0 0;
+}
+
+.about-section h3{
+    width: 455px;
+    font-size: 30px;
+    max-height: 50px;
+}
+
+.about-section p{
+    width: 455px;
+    height: 360px;
+    padding: 1rem 0;
+}
+
+.image-in img{
+    width: 455px;
+    height: 303px;
+    margin-left: 8.2rem;
+    margin-top: 10px;
+    border-radius: 15px;
+}
