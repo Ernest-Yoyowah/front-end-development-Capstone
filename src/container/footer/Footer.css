@@ -1,0 +1,36 @@
+.footer-section {
+    background: #495E57;
+    min-height: 300px;
+}
+
+.ft-container {
+    display: flex;
+    padding: 2rem 10rem;
+    color: #fff;
+}
+
+.ft-container img {
+    width: 96px;
+    height: 183px;
+}
+
+.site-map {
+    margin-left: 5rem;
+}
+
+.site-map h3 {
+    text-transform: uppercase;
+    font-weight: 30;
+    font-size: 16px;
+    margin: 0 0 16px;
+    width: 183px;
+    height: 24px;
+}
+.site-map a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 42px;
+    height: 19px;
+    font-size: 16px;
+}
