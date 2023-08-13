@@ -34,3 +34,7 @@
     height: 19px;
     font-size: 16px;
 }
+
+.site-map a:hover {
+    color: #F4CE14;
+}
