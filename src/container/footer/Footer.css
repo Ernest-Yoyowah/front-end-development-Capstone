@@ -20,7 +20,7 @@
 
 .site-map h3 {
     text-transform: uppercase;
-    font-weight: 30;
+    font-weight: 600;
     font-size: 16px;
     margin: 0 0 16px;
     width: 183px;
@@ -29,12 +29,46 @@
 .site-map a{
     color: #fff;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 14px;
     width: 42px;
     height: 19px;
     font-size: 16px;
+    font-weight: 100;
 }
 
 .site-map a:hover {
     color: #F4CE14;
+}
+
+.contact-section  h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 16px;
+    width: 183px;
+    height: 24px;
+}
+
+.contact-section p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.connect a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.connect h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 16px;
+    width: 183px;
+    height: 24px;
+}
+
+.connect {
+    margin-left: 4rem;
 }
