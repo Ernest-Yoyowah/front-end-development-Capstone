@@ -107,7 +107,7 @@ const Navbar = () => {
                       Home
                     </a>
                   </p>
-                  {/* <p>
+                  {/*<p>
                     <a
                       href='#about'
                       className={activeSection === 'about' ? 'active-link' : ''}
@@ -115,7 +115,7 @@ const Navbar = () => {
                     >
                       About
                     </a>
-                  </p> */}
+                  </p>*/}
                   <p>
                     <a
                       href='#menu'

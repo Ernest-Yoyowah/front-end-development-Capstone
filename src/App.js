@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/aboutpage" element={<AboutPage />} />
-        {/* Define other routes here */}
       </Routes>
       <Header />
       <Main />
