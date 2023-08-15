@@ -40,7 +40,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} className="white-icon"/>
           </a>
           <a href='#'>
-            <FontAwesomeIcon icon={faTwitter} className="white-icon" />
+            <FontAwesomeIcon icon={faTwitter} className="white-icon"/>
           </a>
           <a href='#'>
             <FontAwesomeIcon icon={faYoutube} className="white-icon" />
