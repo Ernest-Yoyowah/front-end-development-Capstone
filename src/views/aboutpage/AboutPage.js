@@ -9,5 +9,3 @@ const About = () => {
 }
 
 export default About
-
-//new
