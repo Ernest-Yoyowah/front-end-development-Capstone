@@ -43,7 +43,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTwitter} className="white-icon"/>
           </a>
           <a href='#'>
-            <FontAwesomeIcon icon={faYoutube} className="white-icon" />
+            <FontAwesomeIcon icon={faYoutube} className="white-icon"/>
           </a>
         </div>
       </div>
