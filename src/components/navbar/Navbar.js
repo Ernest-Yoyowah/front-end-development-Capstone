@@ -4,6 +4,7 @@ import { Route, Routes, NavLink } from 'react-router-dom';
 
 import './Navbar.css'
 import { Header, Main, Footer, Testimonial, About } from '../../container';
+import AboutPage from '../../views/aboutpage/AboutPage';
 import logo from '../../assets/Logo .svg';
 
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to='/about'
+              to='../../views/aboutpage'
               className={activeSection === 'about' ? 'active-link' : ''}
               onClick={() => handleLinkClick('about')}
             >
