@@ -103,10 +103,6 @@ const Main = () => {
 
       </div>
 
-      {/* <div className='week-specials'> */}
-
-      {/* </div> */}
-
 
 
     </div>
