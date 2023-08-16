@@ -51,7 +51,7 @@ const Testimonial = () => {
             />
           ))}
         </span>
-        <p>"Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p>"Lorem ipsum sit amet, consectetur adipiscing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
       </div>
       </div>
 
