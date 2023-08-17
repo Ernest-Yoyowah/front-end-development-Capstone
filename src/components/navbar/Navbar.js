@@ -36,7 +36,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to='../../views/aboutpage'
+              to='/about'
               className={activeSection === 'about' ? 'active-link' : ''}
               onClick={() => handleLinkClick('about')}
             >
