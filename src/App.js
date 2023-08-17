@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path={views.about.path} element={<AboutPage />} />
+        <Route path={views.about.path} render={() => <AboutPage />} />
         {/* Define other routes here */}
       </Routes>
       <Header />
