@@ -4,13 +4,15 @@ import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
 import { Header, Main, Footer, Testimonial, About } from './container';
 import AboutPage from './views/aboutpage/AboutPage';
+import views from './views';
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/aboutpage" element={<AboutPage />} />
+        <Route path={views.about.path} element={<AboutPage />} />
+        {/* Define other routes here */}
       </Routes>
       <Header />
       <Main />
