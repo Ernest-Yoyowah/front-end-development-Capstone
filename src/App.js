@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Navbar } from './components';
 import { Header, Main, Footer, Testimonial, About } from './container';
 import AboutPage from './views/aboutpage/AboutPage';
@@ -10,10 +10,12 @@ function App() {
   return (
     <>
       <Navbar />
+      <BrowserRouter>
       <Routes>
-        <Route path={views.about.path} render={() => <AboutPage />} />
+        <Route path='/about' element={<AboutPage />} />
         {/* Define other routes here */}
       </Routes>
+      </BrowserRouter>
       <Header />
       <Main />
       <Testimonial />

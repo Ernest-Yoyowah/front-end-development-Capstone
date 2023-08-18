@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri';
 import { Route, Routes, NavLink } from 'react-router-dom';
 
+import views from '../../views';
+
 import './Navbar.css'
 import { Header, Main, Footer, Testimonial, About } from '../../container';
 import AboutPage from '../../views/aboutpage/AboutPage';
@@ -36,11 +38,11 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to='/about'
-              className={activeSection === 'about' ? 'active-link' : ''}
-              onClick={() => handleLinkClick('about')}
+              to="/aboutpage"
+              className={activeSection === "about" ? "active-link" : ""}
+              onClick={() => handleLinkClick("about")}
             >
-            About
+              About
           </NavLink>
           <NavLink
               to='/menu'
