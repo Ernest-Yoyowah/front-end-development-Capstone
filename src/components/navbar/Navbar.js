@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri';
-import { Route, Routes, NavLink } from 'react-router-dom';
+import { Route, Routes, NavLink, BrowserRouter } from 'react-router-dom';
 
 import views from '../../views';
 

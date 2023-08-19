@@ -10,12 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path='/about' element={<AboutPage />} />
-        {/* Define other routes here */}
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       <Header />
       <Main />
       <Testimonial />
